@@ -16,7 +16,7 @@ typedef NTSTATUS(WINAPI* _NtCreateThreadEx)(
     PVOID, ULONG, SIZE_T, SIZE_T, SIZE_T, PVOID);
 
 // Sample shellcode (just a breakpoint for testing)
-// Replace with real shellcode later
+// Replace with real shellcode
 unsigned char shellcode[] =
 "\x90\x90\x90\x90"  // nops
 "\xCC";             // INT3
