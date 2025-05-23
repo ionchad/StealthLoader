@@ -1,4 +1,4 @@
-# ShellcodeLoader
+# StealthLoader
 
 This is a C program that demonstrates loading and executing shellcode in memory on Windows using native NT API functions.
 
