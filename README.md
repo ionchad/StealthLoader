@@ -23,7 +23,7 @@ How to compile
 How to run
 
 - Run the compiled executable as Administrator on Windows  
-- It should hit an INT3 trap, this is just a sample
+- It should hit an INT3 breakpoint, this is just a test
 ---
 
 How to use custom shellcode
