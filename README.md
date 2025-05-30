@@ -41,7 +41,7 @@ You can replace the built-in shellcode with your own. Follow these steps careful
      ```
    - Each byte is represented as a hexadecimal escape sequence (`\x??`).  
 
-3. Replace the existing shellcode in `loader.c`
+3. Replace the existing shellcode in `main.c`
    - Find the existing `unsigned char shellcode[] = ...` line near the top of the source file.  
    - Replace it with your own shellcode array.  
 
